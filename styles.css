@@ -1,0 +1,74 @@
+/* delete the following line if no text is used
+edit the line if you wanna use other fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* // use only the available space inside the 400x400 frame */
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.center {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+button {
+    color: #fff;
+    background-color: rgb(60,167,251);
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    height: 20%;
+    margin-top: 63%;
+}
+
+button:hover {
+  background-color: rgb(29, 122, 192);
+  transition: .2sec;
+}
+
+p {
+    color: rgb(131,145,161);
+}
+
+.corner {
+    position: relative;
+    text-align: center;
+    margin: 0 0 0 90%;
+    width: 0;
+      height: 0;
+      border-top: 75px solid darkgray;
+      border-left: 75px solid transparent;
+}
+
+h3 {
+   position: absolute;
+   margin: 0 0 96% 96%;
+    color: white;
+    z-index: 1;
+}
+
+h4 {
+    color: rgb(120,130,143);
+}
